@@ -13,7 +13,7 @@ with open("categorical_encoders.pkl", "rb") as f:
 
 st.set_page_config(
     page_title="Student Performance Predictor",
-    page_icon="🏡",  # Unicode emoji or path to a custom icon
+    page_icon="🧑🏻‍🎓",  # Unicode emoji or path to a custom icon
 )
 
 import base64
@@ -167,3 +167,4 @@ elif page == "ℹ️ About":
         🛠 Built with **Streamlit, Scikit-learn, and Python**  
         """
     )
+
